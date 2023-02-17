@@ -1,0 +1,21 @@
+{
+  "name": "fav-npm-pkg",
+  "version": "0.0.0",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "wrangler": "2.8.1",
+    "wranglerjs-compat-webpack-plugin": "^0.0.6"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "@supabase/postgrest-js": "^1.3.0",
+    "@supabase/supabase-js": "^2.5.0",
+    "itty-router": "^3.0.11"
+  }
+}

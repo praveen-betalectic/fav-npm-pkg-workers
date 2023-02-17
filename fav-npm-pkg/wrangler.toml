@@ -1,0 +1,9 @@
+name = "fav-npm-pkg"
+main = "./src/index.js"
+# main = "./worker/script.js"
+compatibility_date = "2023-01-30"
+
+[build]
+command = "npm run build" # or "yarn build"
+
+

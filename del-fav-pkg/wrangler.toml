@@ -1,0 +1,6 @@
+name = "del-fav-pkg"
+main = "src/index.js"
+compatibility_date = "2023-01-31"
+
+[build]
+command = "npm run build" # or "yarn build"
